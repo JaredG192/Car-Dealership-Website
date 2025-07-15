@@ -1,0 +1,86 @@
+<!--This program creates a website that shows 3 diffrent types of car manufactures at a dealership
+The user can also click on the models to see the diffrent types of car models each manufacturer has.-->
+
+<!DOCTYPE html>
+<!--set website language to english United States-->
+<html lang="en-US">
+
+<!--Heading/title of the page-->
+    <head>
+        <title>Dealership</title>
+        <link rel="icon" type="image/png" sizes="16x16" href ="index/favicon.png">
+    </head>
+
+<!--Body of the website-->
+    <!--Changes background-->
+    <body background ="index/cars.jpeg" background-size>
+
+        <!--Changes color of text to white-->
+        <h1 style="color:white;"> Car Dealership</h1>
+        <h3 style="color:white;">Nissan</h3>
+        <p style="color:white;">Nissan models.</p>
+
+        <!--Links image to nissan models page-->
+        <a href="nissan/nissanModels.html">
+            <img src="index/Nissan.png" alt="Nissan" width="200" height="200"> 
+            <hr>
+        </a>
+
+
+        <!--Changes color of text to white-->
+        <h3 style="color:white;">Porsche</h3>
+        <p style="color:white;">Porsche models.</p>
+
+        <!--Links image to porsche models page-->
+        <a href="porsche/porscheModels.html">
+            <img src="index/Porsche.png" alt="Porsche" width="230" height="230"> 
+            <hr>
+        </a>
+      
+         <!--Changes color of text to white-->
+        <h3 style="color:white;">Toyota</h3>
+        <p style="color:white;">Toyota models.</p>
+
+
+        <!--Links image to toyota models page-->
+        <a href="toyota/toyotaModels.html">
+            <img src="index/Toyota.png" alt="Toyota" width="200" height="200"> 
+            <hr>
+        </a>
+
+
+        <!--changes text color to white-->
+        <small style="color:white;">Visit the offical sites for more information on car models.
+
+            <!--Creates hyperlinks to offical websites-->
+            <a href="https://www.nissanusa.com/" target="_blank"> Nissan official website, </a>
+            <a href="https://www.porsche.com/" target="_blank"> Porsche official website, </a>
+            <a href="https://www.toyota.com/" target="_blank"> Toyota official website</a>
+        </small>
+
+
+        <!--Changes color of hyperlinks when mouse is hovered over or clicked-->
+        <style>
+            a:link
+            {
+                color: green;
+                background-color: transparent;
+                text-decoration: none;
+            }
+
+            a:visited
+            {
+                color: red;
+                background-color: transparent;
+                text-decoration: none;
+            }
+
+            a:hover
+            {
+                color: blueviolet;
+                background-color: transparent; 
+                text-decoration: underline;
+            }
+        </style>
+    </body>
+</html>
