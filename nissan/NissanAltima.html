@@ -1,0 +1,122 @@
+<!--This program creates a webpage for the nissan altima car and shows the user 
+the specs of the car using a table-->
+
+<!DOCTYPE html>
+<!--set website language to english United States-->
+<html lang="en-US">
+
+<!--Heading/title of the page-->
+    <head>
+        <title>Nissan Altima</title>
+    </head>
+
+    <!--Changes color of the table borders to white-->
+    <style>
+        table, th, td
+        {
+            border:1px solid white
+        }
+
+    </style>
+    
+    <!--Sets the background of the webpage to an image and formats the size-->
+    <style>
+        body
+        {
+            background-image: url('../index/nissanaltima.jpeg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        /* Styles for the links */
+        .top-right-link {
+                text-align: right;
+                margin-top: 10px;
+            }
+
+            .bottom-right-link {
+                position: fixed;
+                bottom: 10px;
+                right: 10px;
+            }
+    </style>
+
+    <!--Changes color of hyperlinks-->  
+    <style>
+         a:link
+            {
+                color: green;
+                background-color: transparent;
+                text-decoration: none;
+            }
+
+            a:visited
+            {
+                color: yellow;
+                background-color: transparent;
+                text-decoration: none;
+            }
+
+            a:hover
+            {
+                color: red;
+                background-color: transparent; 
+                text-decoration: underline;
+            }
+    </style>
+    
+
+    <!--Body of the website-->
+    <body>
+        <!--Creates a link to return to the main webpage-->
+        <div class="bottom-right-link">
+            <p> <a href="../index.html">Return Home</a></p>
+        </div>
+
+        <!--Creates a link to return to the nissan models webpage-->
+        <div class="top-right-link">
+            <p> <a href="nissanModels.html">Return to Nissan Models</a></p>
+        </div>
+
+
+        <!--changes color of the text to white-->
+        <h2 style="color:white;">Nissan Altima Specs</h2>
+
+        <!--creates the table and sets the size to 50% of the screen-->
+        <table style="width:50%">
+
+            <!--Creates the data inside the table-->
+            <tr>
+                <td style="color:white;">Price</td>
+                <td style="color:white;">$26,370</td>
+
+            </tr>
+
+            <tr>
+                <td style="color:white;">Engine</td>
+                <td style="color:white;">2.5-liter DIG 4-cylinder</td>
+            </tr>
+
+            <tr>
+                <td style="color:white;">Wheels</td>
+                <td style="color:white;">16" Steel wheels</td>
+            </tr>
+
+            <tr>
+                <td style="color:white;">Brakes</td>
+                <td style="color:white;">Ceramic brakes</td>
+
+            </tr>
+
+            <tr>
+                <td style="color:white;">Fuel Economy</td>
+                <td style="color:white;">City: 27 MPG ---- Highway: 39 MPG</td>
+    
+            </tr>
+            
+        </table>
+
+    </body>
+
+</html>
